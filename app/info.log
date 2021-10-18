@@ -1,0 +1,19 @@
+2021-10-11 07:46:47,873 - werkzeug - WARNING -  * Debugger is active!
+2021-10-11 07:46:47,878 - werkzeug - INFO -  * Debugger PIN: 531-764-630
+2021-10-11 07:46:54,684 - wer2021-10-11 07:49:12,437 - werkzeug - INFO -  * Restarting with stat
+ 200 -
+2021-10-11 07:46:54,715 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2021 07:46:54] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2021-10-11 07:46:54,716 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2021 07:46:54] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021-10-11 07:46:54,716 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2021 07:46:54] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2021-10-11 07:46:54,720 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2021 07:46:54] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021-10-11 07:46:54,802 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2021 07:46:54] "GET /api/swagger.json HTTP/1.1" 200 -
+2021-10-11 07:47:17,633 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2021 07:47:17] "[31m[1mPOST /api/url/decode HTTP/1.1[0m" 400 -
+2021-10-11 07:47:27,089 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2021 07:47:27] "[31m[1mPOST /api/url/decode HTTP/1.1[0m" 400 -
+2021-10-11 07:47:44,752 - URLShortenerController - INFO - request_data :{'original_url': 'https://stackoverflow.com/questions/60808144/flask-cache-gives-me-attributeerror-cache-object-has-no-attribute-app'}
+2021-10-11 07:47:44,752 - URLShortenerUtil - INFO - returning new shorten_url :http://short-url.com/g8
+2021-10-11 07:47:44,752 - URLShortenerController - INFO - shorten_url :http://short-url.com/g8
+2021-10-11 07:47:44,753 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2021 07:47:44] "POST /api/url/encode HTTP/1.1" 200 -
+2021-10-11 07:47:58,185 - URLShortenerController - INFO - request_data :{'shorten_url': 'http://short-url.com/g8'}
+2021-10-11 07:47:58,186 - URLShortenerController - INFO - original_url :https://stackoverflow.com/questions/60808144/flask-cache-gives-me-attributeerror-cache-object-has-no-attribute-app
+2021-10-11 07:47:58,186 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2021 07:47:58] "POST /api/url/decode HTTP/1.1" 200 -
+2021-10-11 07:49:12,397 - werkzeug - INFO -  * Detected change in '/opt/workspace/flask-app/api_gateway.py', reloading
